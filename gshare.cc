@@ -12,13 +12,6 @@ namespace gem5{
 
 namespace branch_prediction{
 
-/*constructor'ın uyelerini initialize etmek icin initializer list syntax
-kullanılır. initializer list üye değişkenlerin ve bunlara karşılık gelen başlangıç ​​değerlerinin
-virgülle ayrılmış ve parantez içine alınmış bir listesidir.
-
-*/
-
-
 
 GshareBP::GshareBP(const GshareBPParams &params)
     : BPredUnit(params),
